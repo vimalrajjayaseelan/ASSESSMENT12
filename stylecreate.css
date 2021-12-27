@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.like__btn {
+  padding: 10px 15px;
+  background: #0080ff;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  color: #e8efff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.like__btn1 {
+    padding: 10px 15px;
+    background: #0080ff;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    color: #e8efff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+#formdiv{
+    border: 10px solid lightslategrey;
+    width: 700px;
+    margin-left: 370px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+form {
+        padding: 20px;
+        width: 1430px;
+        float: left;
+        background-color: lightcyan;
+        justify-content: center;
+        text-align: center;
+
+}
+
+    
+body{
+    background-color: lightsteelblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding: 20px;
+  float: left;
+  margin: 20px;
+  margin-left: 500px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    
+  padding: 2px 16px;
+  margin: 20px;
+}
+.container1{
+    width: 500px;
+    padding: 20px;
+
+}
+
+input [type=file]{
+
+}
+
+h1{
+  background-color: honeydew;
+  font-family: "lucida handwriting";
+  text-align: center;
+  padding: 20px;
+  border: 5px solid lightseagreen;
+}

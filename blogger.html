@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogger Page</title>
+<link rel="stylesheet" href="stylecreate.css">
+
+</head>
+<body>
+
+<h1>My Blogger</h1>
+<div class="container1">
+  <div id = 'card'>
+<div class="card">
+  <img src="forblog1.jpeg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Paul walker</b></h4> 
+    <p>Tech Crunch is considered as one of the well knows and popular website for providing quality information related to new gadgets and technology news. Also, Tech Crunch is one of the leading technology media on the internet as well as one of the most famous technology blog online. Mainly this provides articles related to internet portals, latest tech product reviews and news etc</p> 
+    <button class="like__btn">
+      <span id="icon"><i class="far fa-thumbs-up"></i></span>
+      <span id="count">0</span> Like
+    </button> 
+</div>
+</div>
+</div>
+    <form class="create">
+      <div id="formdiv">
+        <div class="createpost">
+            <label for="createpost"><h2 style="background-color: darksalmon;">Create post</h2></label>
+        </div>
+        <div class="name1">    
+            <label for="name" class="namestyle">Name</label>
+            <input type="text" id="title" name="name" placeholder="Enter name">
+        </div>
+        <div class="text1">
+            <label for="text">Write Your blog</label>
+            <input type="text" id="content" name="text" placeholder="Type here" style="height: 100px;">
+        </div>
+        <div>
+            <input type="file" id="myFile" name="filename">
+            <img src="" id="preview">
+        </div>
+        <div class="button1">
+            <input type="button" onclick="postbutton()" id="button" name="button" value="Post">
+        </div>
+      </div>  
+      </form>
+    <script src="scriptcreate1.js"></script>  
+</body>
+</html> 
